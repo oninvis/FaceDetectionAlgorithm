@@ -1,0 +1,2 @@
+It uses open-cv and mediapipe to detect the face and register the landmarks which are then stored in the json file and can be used to compare or recognize the person in the feed. In this code which is originally meant to be used for facedetection lock compares the live feed to the stored face landmarks in the json file
+It detects real time emotions using DeepFace from tensorflow library and outputs realtime emotions on the camera feed
