@@ -1,2 +1,7 @@
-It uses open-cv and mediapipe to detect the face and register the landmarks which are then stored in the json file and can be used to compare or recognize the person in the feed. In this code which is originally meant to be used for facedetection lock compares the live feed to the stored face landmarks in the json file
-It detects real time emotions using DeepFace from tensorflow library and outputs realtime emotions on the camera feed
+# Description
+** This uses Open cv to detect the live feed and uses mediapipe to process the feed extract all the necessary information
+** This code was originally meant to be a face detection lock so it has a comparing system to recognise , but this can be tweaked to make it a recognition algorithm
+** It uses DeepFace from the Tensor Flow library to detect emotions of the face detected in the real time on the camera feed
+
+#### Note 
+use python version 3.10.16 for it to work because mediapipe does not work in version of 3.13
